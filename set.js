@@ -9,10 +9,10 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
     : process.env.DATABASE_URL;
 module.exports = { session: process.env.SESSION_ID || 'zokk',
     PREFIXE: process.env.PREFIX || "+",
-    OWNER_NAME: process.env.OWNER_NAME || "France King",
+    OWNER_NAME: process.env.OWNER_NAME || "scythe",
     NUMERO_OWNER : process.env.OWNER_NUMBER || "",              
-    AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "oui",
-    AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'non',
+    AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
+    AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'yes',
     BOT : process.env.BOT_NAME || 'FLASH-MD',
     OPENAI_API_KEY : process.env.OPENAI_API_KEY || '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',
     URL : process.env.BOT_MENU_LINKS || 'https://static.animecorner.me/2023/08/op2.jpg',
